@@ -24,6 +24,9 @@
   margin: 0;
   font-weight: 500;
 }
+.nav-links-container {
+  margin-left: -150px;
+}
 .nav-links {
   list-style-type: none;
   display: flex;
@@ -76,4 +79,19 @@
   height: 20px;
   width: 20px;
   color: grey;
+}
+.version {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.version-color {
+  color: rgb(56, 105, 220);
+  font-weight: 600;
+}
+
+.version-info {
+  color: #bbb5b5;
+  font-weight: 500;
 }
